@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "fwcd.kotlin",
+    "rust-lang.rust-analyzer",
+    "vscjava.vscode-java-pack"
+  ]
+}

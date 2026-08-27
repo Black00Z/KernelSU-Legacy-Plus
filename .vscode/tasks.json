@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build KernelSU Legacy+ APK",
+      "type": "shell",
+      "command": "./scripts/build-apk.sh",
+      "windows": {
+        "command": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\\scripts\\build-apk.ps1"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "clear": true
+      }
+    }
+  ]
+}

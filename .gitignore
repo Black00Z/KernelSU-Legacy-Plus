@@ -1,0 +1,7 @@
+manager/.gradle/
+manager/local.properties
+manager/app/build/
+manager/app/src/main/jniLibs/arm64-v8a/libksud.so
+userspace/ksud/target/
+out/*.apk
+!.gitkeep
